@@ -1,0 +1,20 @@
+{
+  "name": "@infostacks/ui-icons",
+  "version": "1.0.0",
+  "description": "This repo contains the ui-icons for web applications.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Infostacks/ui-icons.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Infostacks/ui-icons/issues"
+  },
+  "homepage": "https://github.com/Infostacks/ui-icons#readme"
+}
