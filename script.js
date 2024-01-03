@@ -39,4 +39,4 @@ input.addEventListener('keyup', (e) => {
 })
 
 // how to use in React projects:
-// <span dangerouslySetInnerHTML={{__html: iconName()}}></span>
+// <i className="icons-package" dangerouslySetInnerHTML={{__html: addIcon()}}></i>
