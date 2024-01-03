@@ -13,6 +13,7 @@ function setAllIcons() {
             const createdChild = document.createElement('section');
             createdChild.innerHTML = `${icons[element]()}`
             createdChild.innerHTML += `<p>${element}</p>`
+            createdChild.innerHTML += `<p>${createdChild.firstChild.width.baseVal.value} x ${createdChild.firstChild.height.baseVal.value}</p>`
             iconsDiv.appendChild(createdChild);
         });
     else {
@@ -21,6 +22,7 @@ function setAllIcons() {
                 const createdChild = document.createElement('section');
                 createdChild.innerHTML = `${icons[element]()}`
                 createdChild.innerHTML += `<p>${element}</p>`
+                createdChild.innerHTML += `<p>${createdChild.firstChild.width.baseVal.value} x ${createdChild.firstChild.height.baseVal.value}</p>`
                 iconsDiv.appendChild(createdChild);
             }
         });
