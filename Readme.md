@@ -1,3 +1,6 @@
+# Preview
+[ui-icons](https://infostacks.github.io/ui-icons/)
+
 # Installation
 ### NPM
 ```bash
